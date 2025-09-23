@@ -1,0 +1,209 @@
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+.van-collapse-item__content {
+  padding: 0px !important;
+}
+.collapse-title {
+  color: #888;
+  font-size: 12px;
+}
+/**审批流程与操作*/
+.sign-container .textarea {
+  padding: 10px 0px 10px 15px;
+}
+.sign-container .sign-btns {
+  padding: 10px;
+  text-align: center;
+}
+.sign-container .sign-btns .mui-btn {
+  text-align: center;
+  min-width: 80px;
+  margin-right: 10px;
+}
+.timeline {
+  padding: 24px 5px;
+  background: #fff;
+}
+.timeline .data-item {
+  border-left: 2px solid #d7d9da;
+  margin-left: 15px;
+  padding-bottom: 21px;
+}
+/* .timeline .data-item:last-child{border:none} */
+.timeline .approve-info {
+  padding: 0px 10px 0px 24px;
+  margin-bottom: 6px;
+}
+.timeline .approve-info .approve-photo {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  display: inline-block;
+  float: left;
+  margin-right: 8px;
+}
+.timeline .approve-info .approve-user {
+  display: inline-block;
+  color: #000;
+  font-size: 15px;
+}
+.timeline .approve-info .approve-sign {
+  display: inline-block;
+  color: #00c976;
+  border: 1px solid #c0e9cf;
+  padding: 3px 5px;
+  line-height: 1;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+.timeline .approve-info .approve-date {
+  position: relative;
+  float: right;
+  color: #888;
+  top: 2px;
+}
+.timeline .approve-content {
+  color: rgb(88, 87, 87);
+  font-size: 14px;
+  padding: 0px 15px 0px 24px;
+}
+.timeline .approve-hq {
+  padding-bottom: 0;
+}
+.timeline .approve-hq-text {
+  font-size: 15px;
+  color: #5077aa;
+  padding: 0px 15px 0px 24px;
+  margin-bottom: 21px;
+  line-height: 1.5;
+}
+/**状态*/
+.timeline > ul > li > .approve-status {
+  float: left;
+  width: 21px;
+  height: 21px;
+  margin-left: -11px;
+  border-radius: 40px;
+  padding: 3px;
+}
+.timeline > ul > li > div > .approve-status {
+  float: left;
+  width: 21px;
+  height: 21px;
+  margin-left: -11px;
+  border-radius: 40px;
+  padding: 3px;
+}
+.timeline .icon-sping {
+  border-color: #168ee7;
+}
+.timeline .icon-sping .approve-status {
+  background: #168ee7;
+}
+.timeline .icon-sping > .approve-info > .approve-sign {
+  color: #168ee7;
+  border-color: #c3d7ee;
+}
+.timeline .icon-pass {
+  border-color: #00c976;
+}
+.timeline .icon-pass .approve-status {
+  background: #00c976;
+}
+.timeline .icon-pass > .approve-info > .approve-sign {
+  color: #00c976;
+  border-color: #c0e9cf;
+}
+.timeline .icon-return {
+  border-color: #fbab2d;
+}
+.timeline .icon-return .approve-status {
+  background: #fbab2d;
+}
+.timeline .icon-return > .approve-info > .approve-sign {
+  color: #fbab2d;
+  border-color: #ffe5bb;
+}
+.timeline .icon-wait {
+  border-color: #cbcbcb;
+}
+.timeline .icon-wait .approve-status {
+  background: #cbcbcb;
+}
+.timeline .icon-wait > .approve-info > .approve-sign {
+  color: #cbcbcb;
+  border-color: #d1d1d1;
+}
+.timeline .icon-abort {
+  border-color: #ff4950;
+}
+.timeline .icon-abort .approve-status {
+  background: #ff4950;
+}
+.timeline .icon-abort > .approve-info > .approve-sign {
+  color: #ff4950;
+  border-color: #ffc4be;
+}
+/**二级*/
+.timeline > ul > li > ul .data-item {
+  border-left: none;
+  margin-left: 12px;
+}
+.timeline > ul > li > ul .data-item:before {
+  content: " ";
+  float: left;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  background: #00c976;
+  position: relative;
+  top: 10px;
+}
+.timeline > ul > li > ul .icon-pass:before {
+  background: #00c976;
+}
+.timeline > ul > li > ul .icon-sping:before {
+  background: #168ee7;
+}
+.timeline > ul > li > ul .icon-wait:before {
+  background: #cbcbcb;
+}
+.timeline > ul > li > ul .approve-info,
+.timeline > ul > li > ul .approve-content {
+  padding-left: 12px;
+}
+.timeline > ul > li > ul .approve-status {
+  display: none;
+}
+.sign-plussign {
+  background-color: #fff;
+}
+.sign-plussign .plussign {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 0px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 5px 15px;
+}
+.item {
+  flex-grow: 1;
+}
+.full-title {
+  flex: 1 1 150px;
+  color: #323233;
+  font-size: 16px;
+}
+.full-context {
+  flex: 1 1 150px;
+  color: #969799;
+  font-size: 12px;
+}
